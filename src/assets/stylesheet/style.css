@@ -503,9 +503,9 @@
 
 .item-ndstr:hover {
   border: 1px solid rgb(229, 23, 23);
-  box-shadow: 3px 4px 5px 0px rgba(255, 49, 49, 0.33);
-  -webkit-box-shadow: 3px 4px 5px 0px rgba(255, 49, 49, 0.33);
-  -moz-box-shadow: 3px 4px 5px 0px rgba(255, 49, 49, 0.33);
+  box-shadow: 3px 4px 5px 0px rgba(255, 49, 49, 0.13);
+  -webkit-box-shadow: 3px 4px 5px 0px rgba(255, 49, 49, 0.13);
+  -moz-box-shadow: 3px 4px 5px 0px rgba(255, 49, 49, 0.13);
 }
 
 .nav-item.active .nav-link {
@@ -606,3 +606,6 @@
     display: block;
 }
 
+.email {
+  text-wrap: nowrap;
+}
