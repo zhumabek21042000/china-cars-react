@@ -10,7 +10,7 @@ import Footer from "../components/main/Footer";
 const About = () => {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar active_tab="about"></Navbar>
       <Slider></Slider>
       <Services></Services>
       <Facts></Facts>

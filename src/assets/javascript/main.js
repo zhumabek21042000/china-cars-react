@@ -12,6 +12,7 @@ import "tempusdominus-bootstrap-4";
 
   // Spinner
   var spinner = function () {
+    console.log("triggered")
     setTimeout(function () {
       if ($("#spinner").length > 0) {
         $("#spinner").removeClass("show");

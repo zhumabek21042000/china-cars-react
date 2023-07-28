@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Logo from "../../assets/images/logo.jpg";
 import TopBar from "../TopBar";
 
-const Navbar = () => {
+const Navbar = ({ active_tab }) => {
   return (
     <>
       <TopBar></TopBar>
@@ -26,31 +26,48 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <div className="navbar-nav ms-auto p-4 p-lg-0">
-            <Link to="/" className="nav-item nav-link active">
+            <Link
+              to="/"
+              className={`nav-item nav-link ${
+                active_tab === "main" ? "active" : ""
+              }`}
+            >
               Главная
             </Link>
-            <Link to="/about" className="nav-item nav-link">
+            <Link
+              to="/about"
+              className={`nav-item nav-link ${
+                active_tab === "about" ? "active" : ""
+              }`}
+            >
               О нас
             </Link>
-            <Link to="/services" className="nav-item nav-link">
+            <Link
+              to="/services"
+              className={`nav-item nav-link ${
+                active_tab === "services" ? "active" : ""
+              }`}
+            >
               Сервисы
             </Link>
             <div className="nav-item dropdown">
               <Link
                 to="#"
-                className="nav-link dropdown-toggle"
+                className={`nav-link dropdown-toggle ${
+                  active_tab === "others" ? "active" : ""
+                }`}
                 data-bs-toggle="dropdown"
               >
                 Страницы
               </Link>
               <div className="dropdown-menu fade-up m-0">
-                <Link to="nadstroiki" className="dropdown-item">
+                <Link to="/platforms" className="dropdown-item">
                   Надстройки
                 </Link>
-                <Link to="models/all" className="dropdown-item">
+                <Link to="/models" className="dropdown-item">
                   Модели
                 </Link>
-                <Link to="tonnage" className="dropdown-item">
+                <Link to="/tonnage" className="dropdown-item">
                   Тоннажы
                 </Link>
               </div>
