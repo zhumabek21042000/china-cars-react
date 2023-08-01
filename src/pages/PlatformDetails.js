@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import Navbar from "../components/main/Navbar";
 import Footer from "../components/main/Footer";
-import Loader from "../components/main/Loader";
 import PageHeader from "../components/main/PageHeader";
 import platformData from "../data/platformData";
 import PlatformInfo from "../components/platforms/PlatformInfo";
@@ -20,7 +19,7 @@ const PlatformDetails = () => {
     { text: "Надстройки", url: "/platforms" },
     { text: platform.title, url: "" },
   ];
-  
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [location]);
