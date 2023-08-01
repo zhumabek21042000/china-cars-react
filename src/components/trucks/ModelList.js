@@ -12,8 +12,7 @@ const Trucks = () => {
       subVariants: [
         {
           name: "ПОЛНАЯ МАССА 30,7 Т | ШАССИ FS",
-          linkUrl:
-            "https://hino-trucks.kz/modeli-hino/model-hino-700/polnaya-massa-30-7-t-samosval-fs/",
+          linkUrl: "/models/700-30-7",
         },
         {
           name: "",
@@ -29,13 +28,11 @@ const Trucks = () => {
       subVariants: [
         {
           name: "ПОЛНАЯ МАССА 5,5 Т | ШАССИ XZU",
-          linkUrl:
-            "https://hino-trucks.kz/modeli-hino/model-hino-300/polnaya-massa-5-5-t-shassi-xzu/",
+          linkUrl: "/models/300-55-xzu",
         },
         {
           name: "ПОЛНАЯ МАССА 8,5 Т | ШАССИ XZU",
-          linkUrl:
-            "https://hino-trucks.kz/modeli-hino/model-hino-300/polnaya-massa-8-5-t-shassi-xzu/",
+          linkUrl: "/models/300-85-xzu",
         },
       ],
     },
@@ -47,13 +44,11 @@ const Trucks = () => {
       subVariants: [
         {
           name: "ПОЛНАЯ МАССА 12,0 Т | ШАССИ GD",
-          linkUrl:
-            "https://hino-trucks.kz/modeli-hino/model-hino-500/modifikatsiya-gd-shassi-polnoy-massoy-12-0-t/",
+          linkUrl: "/models/500-12-gd",
         },
         {
           name: "ПОЛНАЯ МАССА 18,0 Т | ШАССИ GH",
-          linkUrl:
-            "https://hino-trucks.kz/modeli-hino/model-hino-500/modifikatsiya-gh-shassi-polnoy-massoy-17-0-t/",
+          linkUrl: "/models/500-12-gh",
         },
       ],
     },

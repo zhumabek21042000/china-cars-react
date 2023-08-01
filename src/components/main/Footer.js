@@ -9,14 +9,13 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6">
             <h4 className="text-light mb-4">Контакты</h4>
             <p className="mb-2">
-              <i className="fa fa-map-marker-alt me-3"></i>Казахстан,
-              Западно-Казахстанская область, Промзона Желаево, строение 18/3
+              <i className="fa fa-map-marker-alt me-3"></i>testtest
             </p>
             <p className="mb-2">
-              <i className="fa fa-phone-alt me-3"></i>+7 747 285 77 38
+              <i className="fa fa-phone-alt me-3"></i>+77777777
             </p>
             <p className="mb-2">
-              <i className="fa fa-envelope me-3 email"></i>nurlybek.khaidarov.07@gmail.com
+              <i className="fa fa-envelope me-3 email"></i>testtest
             </p>
             <div className="d-flex pt-2">
               <a className="btn btn-outline-light btn-social" href="">

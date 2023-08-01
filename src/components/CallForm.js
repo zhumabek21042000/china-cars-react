@@ -1,4 +1,18 @@
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
+
 const CallForm = () => {
+  const form = useRef();
+  function handleSubmit() {
+
+    // emailjs
+    //   .sendForm(
+    //     "service_21881v7",
+    //     "template_h2rqnq5",
+    //     form.current,
+    //     "LagDJlRp__sk0ywrI"
+    //   )
+  }
   return (
     <div
       className="container-fluid bg-secondary booking my-5 wow fadeInUp"
@@ -28,7 +42,7 @@ const CallForm = () => {
               data-wow-delay="0.6s"
             >
               <h1 className="text-white mb-4">Оставьте заявку</h1>
-              <form id="contactForm">
+              <form id="contactForm" onSubmit={handleSubmit()} ref={form}>
                 <div className="row g-3">
                   <div className="col-12 col-sm-6">
                     <input

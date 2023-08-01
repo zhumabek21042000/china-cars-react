@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -120,9 +121,9 @@ const Services = () => {
               style={{ width: "100%", top: "90%", textAlign: "center" }}
             >
               <li>
-                <a href="https://hino-trucks.kz/modeli-hino/model-hino-700/polnaya-massa-30-7-t-samosval-fs/">
+                <Link to="/models/700-30-7">
                   ПОЛНАЯ МАССА 30,7 Т | ШАССИ FS
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

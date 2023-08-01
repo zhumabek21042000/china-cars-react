@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Truck = ({ title, imageUrl, linkUrl, subVariants }) => {
   return (
     <div className="col-md-4 item-p remove-position mt-3">
@@ -10,14 +10,14 @@ const Truck = ({ title, imageUrl, linkUrl, subVariants }) => {
       <ul className="sub-variant-tov" style={{ paddingLeft: 0 }}>
         {subVariants.map((variant, index) => (
           <li key={index}>
-            <a
-              href={variant.linkUrl}
+            <Link
+              to={variant.linkUrl}
               style={{
                 visibility: variant.name.length === 0 ? "hidden" : "visible",
               }}
             >
               {variant.name.length === 0 ? "ПОЛНАЯ МАССА 30,7 Т | ШАССИ FS" : variant.name}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
