@@ -15,7 +15,7 @@ const TopBar = () => {
         <div className="col-lg-5 px-5 text-end">
           <div className="h-100 d-inline-flex align-items-center py-3 me-4">
             <small className="fa fa-phone-alt text-primary me-2"></small>
-            <small>+7 747 285 77 38</small>
+            <small>testest</small>
           </div>
           <div className="h-100 d-inline-flex align-items-center">
             <a className="btn btn-sm-square bg-white text-primary me-1" href="">
